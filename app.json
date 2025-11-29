@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Poultry MVP",
+    "slug": "poultry-mvp",
+    "version": "1.0.0",
+    "sdkVersion": "49.0.0",
+    "platforms": [
+      "android"
+    ],
+    "android": {
+      "package": "com.michael.poultrymvp"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: poultry-mvp-backend
+    env: docker
+    dockerfilePath: backend/Dockerfile
+    plan: starter
+    region: oregon
+    buildCommand: ''
+    startCommand: 'node server.js'
+databases:
+  - name: poultry-db
+    plan: starter
